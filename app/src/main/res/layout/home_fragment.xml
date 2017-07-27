@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data>
+
+        <variable
+            name="navigator"
+            type="com.ikemura.mvpviewmodeldatabinding.core.navigator.RootNavigator"
+            />
+
+        <variable
+            name="presenter"
+            type="com.ikemura.mvpviewmodeldatabinding.front.home.HomeConstract.Presenter"
+            />
+
+    </data>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/root_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="false"
+        tools:openDrawer="start"
+        >
+
+        <include
+            android:id="@+id/home_wrapper"
+            layout="@layout/home_wrapper"
+            app:navigator="@{navigator}"
+            app:presenter="@{presenter}"
+            />
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/nav_header_drawer"
+            app:menu="@menu/activity_drawer_drawer"
+            />
+
+    </android.support.v4.widget.DrawerLayout>
+
+</layout>

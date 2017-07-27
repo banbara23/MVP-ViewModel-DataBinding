@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <data>
+
+        <!--<import type="jp.co.takashimaya.roseapp.R"/>-->
+
+        <variable
+            name="presenter"
+            type="com.ikemura.mvpviewmodeldatabinding.front.home.HomeConstract.Presenter"
+            />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <!--カード情報登録-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/drawer_body_title_background"
+            android:paddingBottom="4dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="4dp"
+            android:text="タイトル"
+            />
+
+        <!--タカシマヤポイントカード-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="タイトル"
+                />
+        </FrameLayout>
+
+        <!--友の会お買い物カード-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="タイトル"
+                />
+        </FrameLayout>
+
+        <!--タカシマヤアプリについて-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/drawer_body_title_background"
+            android:paddingBottom="4dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="4dp"
+            android:text="タイトル"
+            />
+
+        <!--よくある質問-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="タイトル"
+                />
+        </FrameLayout>
+
+        <!--その他-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/drawer_body_title_background"
+            android:paddingBottom="4dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="4dp"
+            android:text="タイトル"
+            />
+
+        <!--機種変更・再インストール（復元）-->
+
+        <!--機種変更ID・PIN確認-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="タイトル"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="タイトル"
+                />
+        </FrameLayout>
+
+        <!--個人情報保護方針-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="タイトル"
+                />
+        </FrameLayout>
+
+        <!--利用規約-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="タイトル"
+                />
+
+        </FrameLayout>
+
+        <!--バージョン情報-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="タイトル"
+                />
+        </FrameLayout>
+    </LinearLayout>
+</layout>

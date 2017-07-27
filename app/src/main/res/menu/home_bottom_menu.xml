@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/nav_bottom_first"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Import"/>
+    <item
+        android:id="@+id/nav_bottom_second"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Gallery"/>
+    <item
+        android:id="@+id/nav_bottom_third"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Slideshow"/>
+    <item
+        android:id="@+id/nav_bottom_four"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Tools"/>
+
+</menu>

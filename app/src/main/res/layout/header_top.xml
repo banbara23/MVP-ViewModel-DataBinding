@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <data>
+
+        <import type="com.ikemura.mvpviewmodeldatabinding.core.Navigator.ScreenName"/>
+
+        <variable
+            name="navigator"
+            type="com.ikemura.mvpviewmodeldatabinding.core.navigator.RootNavigator"
+            />
+
+        <variable
+            name="navigationBar"
+            type="com.ikemura.mvpviewmodeldatabinding.common.navigation.NavigationBarViewModel"
+            />
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            >
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@{navigationBar.title}"
+                />
+
+        </android.support.v7.widget.Toolbar>
+
+    </FrameLayout>
+
+</layout>

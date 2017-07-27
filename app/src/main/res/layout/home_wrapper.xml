@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+
+        <variable
+            name="navigator"
+            type="com.ikemura.mvpviewmodeldatabinding.core.navigator.RootNavigator"
+            />
+
+        <variable
+            name="presenter"
+            type="com.ikemura.mvpviewmodeldatabinding.front.home.HomeConstract.Presenter"
+            />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <FrameLayout
+            android:id="@+id/home_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+            android:id="@+id/home_bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/border_top"
+            app:itemIconTint="@color/selector_bottom_menu_color"
+            app:itemTextColor="@color/selector_bottom_menu_color"
+            app:menu="@menu/home_bottom_menu"
+            app:onNavigationItemSelected="@{presenter::onNavigationClick}"
+            />
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <data>
+
+        <!--<import type="com.ikemura.mvpviewmodeldatabinding.R"/>-->
+
+        <variable
+            name="presenter"
+            type="com.ikemura.mvpviewmodeldatabinding.front.home.HomeConstract.Presenter"
+            />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <TextView
+                android:id="@+id/nav_message"
+                style="@style/NavigationDrawerHeaderMenu"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_menu_gallery"
+                android:gravity="center_horizontal"
+                android:text="メニュー"
+                />
+
+            <TextView
+                android:id="@+id/nav_coupon"
+                style="@style/NavigationDrawerHeaderMenu"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_menu_gallery"
+                android:gravity="center_horizontal"
+                android:text="メニュー"
+                />
+
+            <TextView
+                android:id="@+id/nav_login_stamp"
+                style="@style/NavigationDrawerHeaderMenu"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_menu_gallery"
+                android:gravity="center_horizontal"
+                android:text="メニュー"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <TextView
+                android:id="@+id/nav_online_store"
+                style="@style/NavigationDrawerHeaderMenu"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_menu_gallery"
+                android:gravity="center_horizontal"
+                android:text="メニュー"
+                />
+
+            <TextView
+                android:id="@+id/nav_select_square"
+                style="@style/NavigationDrawerHeaderMenu"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_menu_gallery"
+                android:gravity="center_horizontal"
+                android:text="メニュー"
+                />
+
+            <TextView
+                android:id="@+id/nav_rose_kitchen"
+                style="@style/NavigationDrawerHeaderMenu"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_menu_gallery"
+                android:gravity="center_horizontal"
+                android:text="メニュー"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <TextView
+                android:id="@+id/nav_digital_paper"
+                style="@style/NavigationDrawerHeaderMenu"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_menu_gallery"
+                android:gravity="center_horizontal"
+                android:text="メニュー"
+                />
+
+            <TextView
+                android:id="@+id/nav_catalog_scan"
+                style="@style/NavigationDrawerHeaderMenu"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_menu_gallery"
+                android:gravity="center_horizontal"
+                android:text="メニュー"
+                />
+
+            <TextView
+                android:id="@+id/nav_settings"
+                style="@style/NavigationDrawerHeaderMenu"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_menu_gallery"
+                android:gravity="center_horizontal"
+                android:text="メニュー"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
